@@ -21,8 +21,8 @@ pipeline {
                             sshPublisherDesc(
                                 configName: 'staging',
                                 sshCredentials: [
-                                    username: "$USERNAME",
-                                    key: "$USERKEY"
+                                    username: '$USERNAME',
+                                    key: '$USERKEY'
                                 ], 
                                 transfers: [
                                     sshTransfer(
@@ -53,8 +53,8 @@ pipeline {
                             sshPublisherDesc(
                                 configName: 'production',
                                 sshCredentials: [
-                                    username: "$USERNAME",
-                                    key: "$USERKEY"
+                                    username: '$USERNAME',
+                                    key: '$USERKEY'
                                 ], 
                                 transfers: [
                                     sshTransfer(
